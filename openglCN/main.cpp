@@ -154,7 +154,7 @@ int main()
         glUseProgram(shaderProgram);
         glBindVertexArray(VAO);
         //添加更多顶点到数据中，使用glDrawArrays，尝试绘制两个彼此相连的三角形：参考解答
-        //glDrawArrays(GL_TRIANGLES, 0, 6);
+        glDrawArrays(GL_TRIANGLES, 0, 6);
         //glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
         glfwSwapBuffers(window);
